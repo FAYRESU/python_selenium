@@ -7,7 +7,7 @@ import time
 
 class GoogleTest(unittest.TestCase):
     def test_search(self):
-        s = Service('C:\\webdriver\\chromedriver-win64\\chromedriver.exe')
+        s = Service('D:\chromdriver\chromedriver.exe')
         driver = webdriver.Chrome(service=s)
 
         # เปิดเว็บไซต์ Google
